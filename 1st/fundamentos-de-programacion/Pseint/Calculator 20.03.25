@@ -1,0 +1,54 @@
+Proceso Calculator
+	Definir option Como Entero;
+	Definir n1, n2, n3 Como Real;
+	Definir exit Como Logico;
+	exit = falso;
+	
+	
+	Mientras exit == falso Hacer
+		Escribir "-------- Calculadora --------";
+		Escribir "Seleccione una opción: ";
+		Escribir "1. Suma.";
+		Escribir "2. Resta.";
+		Escribir "3. Multiplicación.";
+		Escribir "4. Divición.";
+		Escribir "0. Salir.";
+		
+		Leer option;
+		
+		Si option >= 1 y option <= 4 Entonces
+			Escribir "Ingrese primer número: ";
+			Leer n1;
+			Escribir "Ahora ingrese el segundo número: ";
+			Leer n2;
+			
+			Si option == 1 entonces
+				n3 = n1 + n2;
+				Escribir "El resultado es: ", n3;
+			FinSi
+			
+			Si option == 2 entonces
+				n3 = n1 - n2;
+				Escribir "El resultado es: ", n3;
+			FinSi
+			
+			Si option == 3 entonces
+				n3 = n1 * n2;
+				Escribir "El resultado es: ", n3;
+			FinSi
+			
+			Si option == 4 entonces
+				n3 = n1 / n2;
+				Escribir "El resultado es: ", n3;
+			FinSi
+			
+			Escribir "";
+			
+		FinSi
+		
+		Si option == 0 Entonces
+			exit = verdadero;
+		FinSi
+		
+	FinMientras
+FinProceso

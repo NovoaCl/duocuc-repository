@@ -1,0 +1,55 @@
+Proceso CalculadoraPerimetroArea
+	Definir option Como Entero;
+	Definir lado, area, petimetro, radio, l1, l2, l3 Como Real;
+	Definir exit Como Logico;
+	
+	exit = falso;
+	
+	Mientras exit == falso Hacer
+		
+		Escribir "----- Calculadora de Área y Perimetro -----";
+		Escribir "Seleccione una opcion: ";
+		Escribir "1. Cuadradro";
+		Escribir "2. Circulo";
+		Escribir "3. Triangulo";
+		Escribir "0. Salir";
+		
+		Leer option;
+		
+		Si option == 1 Entonces
+			Escribir "Ingrese la medida en centimetros de un lado del cuadrado: ";
+			Leer side;
+			perimetro = lado * 4;
+			area = lado * lado;
+			Escribir "El perimetro del cuadrado es: ", perimetro, "cm. y su área es: ", area, "cm2.";
+		FinSi
+		
+		Si option == 2 Entonces
+			Escribir "Ingrese el radio del circulo en centimetros: ";
+			Leer radio;
+			perimetro = 2 * pi * radio;
+			area = pi * radio * radio;
+			Escribir "El perimetro del circulo es: ", perimetro, "cm y su área es: ", area, "cm.";
+		FinSi
+		
+		Si option == 3 Entonces
+			Escribir "Ingrese primer lado en centimetros: ";
+			Leer l1;
+			Escribir "Ingrese segundo lado en centimetros: ";
+			Leer l2;
+			Escribir "Ingrese tercer lado en centimetros: ";
+			Leer l3;
+			perimetro = l1 + l2 + l3;
+			
+		FinSi
+		
+		Si option == 0 Entonces
+			Escribir "Hasta luego.";
+			exit = verdadero;
+		FinSi
+		
+	FinMientras
+
+		
+	
+FinProceso

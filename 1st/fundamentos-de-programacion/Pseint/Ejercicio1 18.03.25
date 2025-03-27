@@ -1,0 +1,26 @@
+Proceso Ejercicio1
+	Definir numero Como Entero;
+	Definir cont Como Entero;
+	cont = 1;
+	
+	Mientras cont = 1 Hacer
+		
+		Escribir "Ingrese un número a validar.";
+		Leer numero;
+		si numero >= 0 Entonces
+			escribir "El numero es positivo.";
+		Sino 
+			Escribir "El número es negativo.";
+		FinSi
+		si numero % 2 = 0 Entonces
+			Escribir "El número es par";
+		sino 
+			Escribir "El número es impar";
+		FinSi
+		
+		Escribir "Para continuar ingrese 1, sino 0.";
+		Leer cont;
+		
+	FinMientras
+
+FinProceso
