@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C1319C7-B506-405C-101F-127D626CC86F" name="zona">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>60EFD488-473D-CEAF-6FBD-8CFD7FE70DF2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zona" id="DA06B615-4957-265E-02B5-B74B1EB667F9">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>E4D41E24-F255-6EF5-1EAE-4B92D383CD74</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>256DC05C-4599-4BDD-8C93-2B80BBA9BB0D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_zona" id="7071CD65-D92F-9A94-5199-E3D56DD05DBA">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>5DCFB093-8835-1C27-2F8E-D53905CC8DDE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>81627C7A-2F4E-60DB-EEF4-9AF4F3BB57CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porc" id="C8C14A5A-4B5D-2FEE-3EF2-5A3C46D44D3A">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>97ECAD90-FE87-103D-037E-A50791E4683D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E1C34BE3-4C10-9F0D-E70C-4AB0C6BDA59A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E3A8DF4-6945-5335-909D-8C72997EA898" name="pk_zona">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>47992057-F6CB-9D87-09C0-758B85A6F803</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA06B615-4957-265E-02B5-B74B1EB667F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

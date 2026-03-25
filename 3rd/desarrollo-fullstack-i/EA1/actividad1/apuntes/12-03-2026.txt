@@ -1,0 +1,47 @@
+FullStack:
+
+Beneficios:
+
+- Escalabilidad horizontal
+- Independencia de componentes.
+- Ciclo de vida independiente
+- Actualizaciones y mantenimiento
+- Tecnologia apropiada para cada servicio 
+- Aislamiento e fallos
+
+- Cada microservicio puede tener tecnologias distintas, distintos lenguajes,etc
+- Si falla in microservicio, solo falla ese y los siempre adecta a los demas
+
+Desventajas:
+- Gestion de servicios
+- Desarrollo y pruebas
+- Recursos adicionales
+- Overhead de comunicacion
+- Siperficie de ataque mayor
+- Gestion de transacciones
+
+Transicion e Monolitico a Microservicios:
+
+*APIs publicas y de pago
+
+Inyeccion de datos
+
+Falso or falso = verdadero?
+
+pass: 1' or '1=1'
+
+Ventajas del Framework
+
+- Desarrollo más rapido
+- Cdigo mantenible
+- Seguridad mejorada
+- Eficiencia
+
+Desventajas
+- Curva de aprendizaje
+- Rigidez
+- Sobrecarga
+application.properties = configurasiocnes el proyecto, cambio de puerto
+
+controller = end points
+

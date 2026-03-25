@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C23B607-6DDA-8459-BF02-4F4DC3DE4274" name="categoria">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>FBCFF8DE-71DB-21BB-ABA8-D0167CDBE7C6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categoria" id="E6DEB732-F607-E05D-03D7-2E27321D913B">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>F85287EA-443E-6F79-4D05-2591B60D9B72</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>256DC05C-4599-4BDD-8C93-2B80BBA9BB0D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_categoria" id="A6D63F87-F973-BBC8-94F5-66A1430CBA63">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>206FE247-FB54-747F-3985-1122CCD9E453</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE81EA61-364B-F075-839E-426EE117B43D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porcentaje" id="C9225077-0000-B46B-2189-C4CEDD1C32AF">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>568264F4-E422-FF19-3E10-5977D492E1FD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C708FF51-3220-3F67-D708-2BDF452461B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comuna_id_comuna" id="735C5410-780F-AA68-840D-B7423BE8227C">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:58:48 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FD3D45D1-C7FB-1D72-CCCC-9190A6A3C031</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EF8E582-D6DE-4C19-111F-517FADA26198" referredColumn="744D02DF-3996-8C4B-149A-7EFBD752FF27"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0857FED3-6D5F-D8B7-AFFE-5927567412F0" name="pk_categoria">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>1187ADF3-5FA1-E4F0-3836-BCF81BFE78D7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6DEB732-F607-E05D-03D7-2E27321D913B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="694ACB22-D09D-F3C1-C5F9-8225F26E0F0E" name="categoria_comuna_FK">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:58:47 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="735C5410-780F-AA68-840D-B7423BE8227C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

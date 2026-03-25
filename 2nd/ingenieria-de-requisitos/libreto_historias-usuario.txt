@@ -1,0 +1,64 @@
+Muy buenos días a todos y a todas, en está oportunidad les hablaremos acerca de las HISTORIAS DE USUARIO de nuestro proyecto de TRABAJOS DE MEDIO TIEMPO, posteriormente mis compañeros les presentaran el BACKLOG PRIORIZADO Y EL REFINADO para finalmente analizar ESTIMACIONES DE ESFUERZO:
+
+HISTORIAS DE USUARIO:
+
+Las historias de usuario representan las funcionalidades clave del sistema desde la perspectiva del usuario final.
+
+En nuestra plataforma tenemos 3 tipos de usuario: TRABAJADOR, EMPLEADOR Y ADMINISTRADOR.
+
+* En cuanto al TRABAJADOR podemos citar una historia de BUSQUEDA DE OFERTAS que dice:
+
+"Como trabajador, quiero buscar ofertas según mi horario y ubicación, para encontrar trabajos que se ajusten a mi tiempo libre."
+
+ Criterios de aceptación:
+ - Permitir aplicar filtros por comuna, horario y categoría.
+ - Mostrar resultados relevantes según los filtros aplicados.
+ - Guardar búsquedas frecuentes.
+
+
+POSTULACION RÁPIDA
+
+"Como trabajador, quiero postular con un clic a las ofertas disponibles, para ahorrar tiempo en el proceso de postulación."
+
+ Criterios de aceptación:
+ - Desde la pantalla de oferta se pueda postular directamente.
+ - Se notifique al empleador de forma automática.
+ - La postulación quede registrada con fecha y hora.
+ - Se evite la doble postulación a la misma oferta.
+
+
+Por otra parte tenemos HISTORIAS DE EMPLEADORES:
+
+ Podemos citar una acerca de PUBLICACION DE OFERTAS, dice:
+"Como empleador, quiero publicar ofertas con filtros de ubicación, horario y categoría, para atraer candidatos adecuados."
+ Criterios de aceptación:
+ - Tenga un formulario con título, descripción, ubicación, horario y categoría.
+ - Valide campos obligatorios antes de publicar.
+ - La oferta se publique y quede visible para los trabajadores.
+
+Otra HISTORIA DE EMPLEADOR muy importante es la de PAGO SEGURO Y CONTRATO DIGITAL, que dice:
+"Como empleador, quiero pagar de forma segura y generar un contrato digital, para garantizar confianza y trazabilidad del proceso."
+ Criterios de aceptación:
+ - Integración con pasarela de pago certificada.
+ - Confirmación automática del pago.
+ - Generación de contrato digital con huella o código único.
+ - Registro del pago y contrato en el historial del usuario.
+
+
+Por último tenemos las HISTORIAS DE ADMINISTRADOR
+
+GESTION DE USUARIOS
+"Como administrador, quiero gestionar usuarios (crear, modificar, suspender), para mantener el orden y la seguridad en la plataforma."
+ Criterios de aceptación:
+ - Permita buscar usuarios por nombre o ID.
+ - Se puedan suspender o reactivar cuentas.
+ - Se registre cada acción en un log de auditoría.
+
+VALIDACION DE INFORMACION Y DOCUMENTOS
+"Como administrador, quiero validar los datos y documentos de los usuarios, para asegurar que la información sea real."
+ Criterios de aceptación:
+ - Tenga un panel con solicitudes de validación pendientes.
+ - La opción de aprobar o rechazar con comentarios.
+ - Un Registro histórico de validaciones realizadas.
+
+En la siguiente diapositiva podemos ver todas las historias de usuario que hemos recopilado y analizado para ver su nivel de prioridad y dificultad, pero de eso les hablará mi compañero Rodrigo.

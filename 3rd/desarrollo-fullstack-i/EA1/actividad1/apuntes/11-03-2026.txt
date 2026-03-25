@@ -1,0 +1,24 @@
+- Fullstack I
+- Daniel Riquelme Rigot
+- dae.riquelme@profesor.duoc.cl
+- +569 684 66 819
+
+- EVA 1 30% Semana 4 (30-03-2026) 	prueba desarrollo.
+
+Experiencia Aprenisaje 2
+- EVA 2 14% Semana 11-12 		Encargo
+- EVA 3 31% Semana 11-12 		Presentación
+- EVA 4 10% Semana 15-16 		Encargo
+- EVA 5 15% Semana 15-16		Presentación
+
+Microservicios: Un estilo rquitectonico que estructura una aplicacion omo un conjunto de servicios pequeños y autonomos, que se comunican a través de APIs bien definicdas. Cada servicio stá iseñado ra ealizar una guncion especifica y puede ser dsarrollado, desplegado y escalado de manera ndependiente de los demás servicios.
+tipo de arquitectura en que se generan pequeñas aplicaciones que se interconetan para crear una gran aplicación.
+
+Fullstack: 	Backend: logica de la aplicacion.
+		Frontend: lo que el usuario ve.
+
+Protocolo HTTP: 	GET
+			POST
+			PUT	
+			PATCH
+			DELETE

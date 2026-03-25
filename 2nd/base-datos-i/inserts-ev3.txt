@@ -1,0 +1,3 @@
+Buenas tardes Gemini, que tal todo?
+Necesito ayuda para generar un script sql que haga insert de los datos en las tablas que adjunté.
+Nesecito cada insert sea independiente y que le agregues la function TO_DATE a cada fecha con el siguiente formato: ('1963-05-22','YYYY-MM-DD')

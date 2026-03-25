@@ -1,0 +1,66 @@
+Web: 
+- Paginas Web: Documento de hipertextos que contienen texto, imagenes, videos y enlaces.
+- Servidores web: Comutadoras que almacenan y entregan paginas web a los usuarios.
+- Sitios Web:
+- Navegadores Web: interpretan
+
+La web funciona con un modelo cliente-servidor. El cliente navegador web envia slicitudes al servidor y el servidor responde con el contenido solicitado
+
+HTML: Lenguaje de marcado ara crear y estructurar paginas web. Utiliza principalmente los metodos HTTP GET y POST.
+
+HTTP: HyperText Transfer Protocol: protocolo utilizado por la web para la transferencia de documentos y datos.
+
+codigos internet gatitos
+
+Metodos HTTP: Acciones que se puede realizar sobre recursos en una arquitectura web.
+
+GET: solicitar datos del servidor
+POST: enviar datos al servidor
+PUT: reemplazar por completo un recurso existente
+PATCH: actualizacion parcial de un recurso existente.
+DELETE:  elimina un recurso del servidor
+HEAD: a diferencia del GET devuelve solo los encabezados de la respuesta
+OPTIONS: solicitar informacion sobre las opciones de comunicacion disponibles.
+
+Respuestas HTTP: Mensajes enviados por el servidor en repsuesta a una solicitud HTTP
+
+- Linea de estado:
+- Encabezado:
+- Cuerpo d la respuesta:
+
+Codigos de estado HTTP:
+- 1xx
+- 2xx
+- 3xx
+- 4xx
+- 5xx
+
+**
+REST: Respresentational State Transfer: arquitectura de software para diseñar servicios web que permiten la comunicación entre diferentes sistemas a traves de la red
+
+Stateless, sin estado
+
+Ventajas:
+- Simplicidad y standar
+- Escalabilidad
+- Flecibilidad
+- Interoperabilidad
+
+API Application Programing Interface: una interfaz que permite que dos aplicaciones se comuniquen entre si. Definen un conjunto de reglas y protocolos
+
+
+JSON formato ligero y facil de leer
+XML más pesado y estructurado
+
+Buenas practicas
+- Simplicidad
+
+versionado de la API:
+api/v2/libros
+api/v2.2/personas
+
+- nombres descriptivos y consistentes
+
+- Nomenclatura:
+kebab-case
+camelCase

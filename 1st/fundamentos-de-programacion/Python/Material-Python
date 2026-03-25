@@ -1,0 +1,131 @@
+Torpedo Organizado Python
+
+Teoría:
+    - Python es un lenguaje de tipo interprete
+    - Guido van Rossun creo Python
+    - Python se crea en 1989
+    - PEP = Python Enhancement Proposal
+    - Python tiene extendcion .py
+    - De Python 2 a 3 se rompe compatibilidad
+    - IDLE en Python es un editor integrado
+    - Python usa la identacion como estructura para agrupar el codigo
+    - PyPI, repositorio de paquetes
+    - pip install = comando para instalar paquetes de Python
+    - script es un archivo .py ehjecutable
+    - REPL = Read-Eval-Print Loop (Lectura-Evaluación-Impresión-Bucle)
+    - __init__.py archivo especial para paquetes
+    - virtual environment = Entorno aislado para dependencias
+    - docstring = Documentacion de funciones
+    - PIP es un gestor de paquetes
+
+Collections:
+    - Lista [1,'a',True]
+    - Diccionario = {'a': 1}
+    - Tupla (1, 2, 3)
+    - Conjunto = {1, 2, 3}
+
+Materia Práctica:
+    - El operador ** hace una potencia
+    - # se usa para comentar
+    - == compara igualdad
+    - import math = importa funciones matematicas
+    - try-except = maneja errores
+    - None = valor nulo
+    - True es del tipo boolean
+    - % da el resto de una divicion
+    - print (10 // 3) = 3
+    - != no igual
+    - que operador tiene mayor prioridad' a) + b) * c) ** (c)
+    - and = &
+    - || = or
+    - not no es lógico
+    - fronzenset = conjunto inmutable
+    - is = verifica identidad
+    - continue salta a la siguiente iteracion
+    - while True = Bucle infinito
+    - Una funcion sin return devuelve None
+    - una tupla se define con ()
+    - *args en ufunciones es Argumentos variables
+    - ** desempaqueta diccionarios
+    - nonlocal = accede  a variable de funcion exterior
+    - from module import = importa todo el modulo
+    - functools.reduce = Aplica funcion acumulativa
+    - @decorator = modifica funcion
+    - collections.defaultdict = Diccionario con valor por defecto
+    - functools.partial = funcion con parametros predeterminados
+    - collections.Counter = cienta elementos
+    - __name__ == '__main__ = Ejecuta si es script principal
+
+
+Métodos:
+    - print() = imprime en pantalla
+    - upper() convierte el texto a mayusculas
+    - split() = divide un string
+    - range(5) = crea la lista [0,1,2,3,4]
+    - float('12.5') = convierte en valor a float
+    - capitalize() = capitaliza un string ????
+    - index() encuentra un indice.
+    - format() = formatea strings
+    - 'hello'.replace('e', 'a') = reemplaza todas las 'e' por 'a'
+    - join() = une elementos de una lista
+    - strip() = elimina espacion en un string
+    - i.append('a') = agrega a a la lista
+    - sort() = ordena una lista.
+    - range (1, 10, 2) = [1, 3, 5, 7, 9]
+    - i.pop() = elimina el ultimo elemento.
+    - reverse() = invierte una lista
+    - enumerate(['a', 'b']) = [(0,'a'),(1,'b')]
+    - count() = cuenta elementos
+    - zip([1,2],['a','b']) = [(1,'a'),(2,'b')]
+    - l.insert(0,'a') = inserta a en la primera posicion
+    - all([True, 1, 'a']) = imprime True
+    - filter(lambda x: x>0, [-1,0,1]) = [1]
+    - list('abc') =  ['a','b','c']
+    - remove() = elimina por valor
+    - any([False, 0, '']) = False
+    - map(lambda x: x*2, [1,2]) = objeto map
+    - copy() = copia una lista
+    - sum([1, 2, 3 ]) = suma todos los datos, 6
+    - clear() = limpia una lista
+    - max() = devuelve el mayor / max([1, 2, 3]) = 3
+    - min(['a', 'b', 'c']) = devuelve el menor del arreglo
+    - sorted([3, 1, 2]) = devuelve el arreglo ordenado. [1, 2, 3]
+    - d.get('clave') = Devuelve el valor de 'clave'
+    - keys() = devuelve claves de disccionario
+    - def f(x=1) = Parametro opcional
+    - {'a':1}.items() devuelve [('a', 1)]
+    - update() = actualiza un diccionario
+    - lambda x: x+1 funcion anónima
+    - d.pip('a') = elimina la clave 'a'
+    - values() = devuelve valores de diccionario
+    - dict(a=1,b=2) {'a':1, 'b':2} Crea un diccionario de la tupla
+    - get() = Busca clave en diccionario
+    - globals() = Variables globales
+    - dict(zip(['a','b'],[1,2])) = {'a':1, 'b':2}
+    - clear() = elimina todo el diccionario
+    - vars() Variables locales
+    - dict.fromkeys(['a','b'], 0) = {'a':0, 'b':0}
+    - copy() = copia diccionario
+    - hasattr(obj, 'attr') = verifica si existe atributo
+    - locals() = Variables locales
+
+Practicas:
+    - print('Hola' * 3) = HolaHolaHola
+    - print(type(5)) = imprime el tipo del dato que se ingresa
+    - print(len('Python')) = imprime el largo del contenido = 6
+    - print(3 * 'a') = aaa
+    - print(3 + '3') = Error
+    - [1,2,3][-1] = 3 ???!
+    - 'hola'[1] = 'o'
+    - 'a' in 'banana = True
+    - print(bool(")) = False
+    - [1, 2] + [3, 4] = [1, 2, 3, 4]
+    - 'abc'.upper() = 'ABC'
+    - 'ab' * 3 = 'ababab'
+    - [x**2 for x in range(3)]  [0, 1, 4]
+    - [x for x in range(3)] =  [0,1,2]
+    - [1, 2] + [3] = [1, 2, 3]
+    - print(not False) = True
+    - l[1:3] = Segundo y tercer elemento ???
+    - [x for x in 'abc'] = ['a','b','c']
+    - [x+y for x,y in zip([1,2],[3,4])] = [4,6]

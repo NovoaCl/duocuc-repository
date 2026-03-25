@@ -1,0 +1,23 @@
+## 18-03-2026
+
+# MVC: Modelo vista controllador.
+- Controller 
+- Service 
+- Repository
+- Model
+- Service
+
+@ Anotaciones
+- Component
+- Controller: Configura la API, maneja solicitudes HTTP y revuelve respuestasendpoints
+- Service
+- Repository
+
+@GetMapping
+@PostMapping
+
+Service: Lógica de negocio de la aplicación.
+	- Orquesta el controlador y el repositorio.
+	- Peoporciona
+
+REpository: Coneccion a la DB, arrayList

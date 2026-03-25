@@ -1,0 +1,8 @@
+* API: Application Programming Interface
+
+Conjunto de funciones y procedimientos(métodos que se usan para diseñar e integrar software de diferentes aplicaciones.
+Permiten que varias aplicaciones se puedan comunicar entre si, por más que estén desarrolladas en lenguajes de programación completamente distintos.
+
+* REST: Representational State Transfer.
+
+Es un tipo de servicio que se caracteriza por no tener estado alguno y por lograr interconexiones mediante el protocolo HTTP con mensajes del tipo XML o JSON.

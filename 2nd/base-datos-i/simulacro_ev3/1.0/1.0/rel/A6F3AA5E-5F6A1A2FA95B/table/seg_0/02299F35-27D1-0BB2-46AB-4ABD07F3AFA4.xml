@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02299F35-27D1-0BB2-46AB-4ABD07F3AFA4" name="detallefactura">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-19 23:52:39 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_factura" id="D09F05CA-2769-FCB5-7078-881C555F3BD2">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-19 23:57:39 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_articulo" id="7926C9F3-9248-8FAC-9FDB-9CA70CEA7040">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-19 23:57:39 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="6FF9B674-67ED-BEA6-2908-6EC1E4D1DFAA">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-19 23:57:39 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E131BC59-1B26-AF13-EA17-C5503CCD0A02" name="detallefactura_PK">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-19 23:57:39 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D09F05CA-2769-FCB5-7078-881C555F3BD2"/>
+<colUsage columnID="7926C9F3-9248-8FAC-9FDB-9CA70CEA7040"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

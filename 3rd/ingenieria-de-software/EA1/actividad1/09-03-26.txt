@@ -1,0 +1,51 @@
+- Luis Becerra
+- Desarrollo app movile y fullstack II
+- Ingeniería de software
+- Artefactos claude, html para compartir
+
+- Semana 5/35%: 	prueba escrita.
+			Encargo 
+			Presentacion oral
+
+- Semana 11/30%: 	prueba escrita.
+			Encargo 
+			Presentacion oral
+
+- Semana 17/35%: 	Presentacion final.
+
+Ing de software: Todo aquello que está alrededor del software.
+Requisitos del cliente y necesidades.
+
+- Modularidad: subdividir un system en componentes independientes o módulos con interfaces bien definidas, promoviendo la comprensibilidad, la reutilización y el mantenimiento del código
+- Encapsulación: Ocultar detalles internos de los componentes del sistema y exponer solo las interfaces necesarias, lo que aumenta la cohesión y reduce el acoplamiento.
+- Abstracción: Simplificar la complejidad del sistema mediante la extracción de detalles esenciales y la creación de representaciones conceptuales más fáciles de entender y trabajar. 
+- Reutilización: Crear componentes de software reutilizables que puedan ser aprovechados en múltiples sistemas, ahorrando tiempo y recursos en el desarrollo.
+
+
+- Requisitos
+- Diseño
+- Implementación
+- Pruebas
+- Mantenimiento
+
+
+Modelos de proceso:
+- Modelo Cascada
+- Modelo Iterativo
+- Modelo Ágil
+
+Ing Software ágil:
+- Valo al cliente
+- Adaptabilidad al Cabio
+- Colaboración y Comunicación
+- Iterativo e Incremental
+- Scrum
+
+Desafios y tendencias actuales
+- Seguridad de software
+- Big data y análisis de datos
+- Integración continua y despliegue continuo
+- Herramientas modernas de desarrollo.
+
+*Antigravity en vez de cursor
+Probar herramientas

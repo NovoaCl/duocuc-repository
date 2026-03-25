@@ -1,0 +1,57 @@
+21-03-2026
+Ciberseguriaderd 
+
+team blue team
+sombrero blanco
+Fases del testing
+- Reconocimiento pasivo menos detectable
+- Reconocimiento activo genera logs
+
+- osing interaccion  
+
+Maquina Kali
+
+- sudo su
+- apt update
+- apt upgrade
+
+Reconocimiento pasivo: es el proceso de obtenerinformacion sobre un objetivo(sistema, red, o persona) sin realizar acciones directas o intrusiva que puedan ser detectadas por el sistema o sus defensas.
+
+ob:
+- Recopilar informacion publica
+- Minimizar riego de deteccion
+- Preparar el terreno para futuras fases
+- Identificar tecnologias utilizadas
+- Recopilar informacion sobre personas
+
+Osint: open source inteligense inteligencia de fuentes abiertas: recopilacion de informacion a partir de fuentes publicas y accesibles, como redes sociales registros publicos, motores de busqueda, bases de datos y más. Se trata de aprovechar todo tipo de datos que esten disponibles sin necesidad de interaccion directa ocn el objetivo
+
+Importancia en Ciber Ofen:
+- Permite obtener una gran cantidad de informacion util sin necesidad de comprometer legalmente o eticamnte al objetivo.
+- Es indetectable desde el punto de vista del objetivo, lo qu ela convierte en un componente clave del reconovimiento pasivo.
+
+Bases de datos publicas
+Servicios de dominio y DNS
+Perfiles publicos y foros
+
+LinkedIn expone mucho la tecnologias de las empresas
+Al igual que los datos del programador
+
+Herramientas OSint
+- Maltego: relaciona entidades, ips y personas
+- SpriderFoot: busca en muchas fuente y recolecta datos.
+- Recon-ng
+- TheHarbester
+
+Tecnicas comunes
+- Whois:
+- Google dorking:
+- Exploit DB
+- Enumeracion de DNS
+
+nslookup
+set type=ns
+colocolo.cl
+
+- Shodan buscador de superficies expuestas
+

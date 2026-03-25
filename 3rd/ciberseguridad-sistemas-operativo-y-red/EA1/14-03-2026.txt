@@ -1,0 +1,65 @@
+Ciberseguridad,sistemas operativos y redes.
+
+- SOC Manager
+- Incident responder
+- Ethical Hacker
+- Threat Hunting
+- Team Leader
+
+- alo.villalobos@profesor.duoc.cl
+
+- EP1 Semana 6 18-04 Teórica 30%
+- EP2 Semana 12 30-05 Práctica 30%
+- EP3 Semana 17 21-06 Práctica 40%
+
+
+- Conceptos de redes
+- Configuacion SO Linux
+- Seguridad de la Información
+
+* Componentes de la Red: Conjuto de dispositivos y recursos interconectados que permiten la comunicacion y el intercambio de datos entre usuarios, sistemas y aplicaciones
+- Dispositivos: Servidores, cable optico, 
+Dispositivos finales, endpoints donde termina la comunicación: Host, computador, celular, televisor, 
+Dispositivos intermedios: dirigen el envoi de datos a traves de la red: Router, firewalls, switch, hub
+
+- Medios: por donde se mueve la señal.
+Cable de cobre, fibra optica, transmicion inalambrica, wifi bluetooth
+wifi 2.4 5g 6
+Lifi
+
+- Servicios: Software aplicaciones que permiten la administracion de los dispositivos de red. correo, chat
+
+HTTPS
+
+- Medios de red:
+	- Redes convergentes: es un tipo de red que puede transimtir voz, video y datos por 		el mismo medio.
+
+* Tipos de redes:
+	- Small HOme Netwoks: Casa
+	- Small office/ Home Office Networks: Oficina
+	- Medium to large Networks: Establemcimiento, switch, firewalls,
+	- World Wide Networks
+
+Red de Area local(LAN, local a¿Area Network): área geografica pequeña
+ipconfig -all
+
+Red de Area Extensa(WAN, Wide Area Network): infraestructura de la red que abarca un area geografica extensa. Las WAn generalmente son administradas por poveedores de servicios de internet ISP.
+
+*Estudiar ejemplos de cada caso*
+
+Wireless LAN WLAN Storage Area Network(SAN), Personal Area Network(PAN): Audifonos inalambricos.
+
+Internet es una coleccion global de redes interconectadas
+
+* Shodan
+* Metodologia DMZ
+
+*Diagramas de Red: Diagramas de topología son documentacion oblgatoria para cualquier persona que trabaje con una red. Estos diagramas proporcionan un mapa viua que muestre como esta conectada la red. Hay dos tipos de
+
+- Topologia fisica: Muestra como está dispuesta fisiamente la infraestructura de red(unicamente ubicación y nombre)
+- Topologia logica: Datos técnicos: muestra como están conectados de manera logica, los dispositivos en la infraestructura de red(IPs, sercicio, direccion de red,
+
+
+**ifconfig.me
+
+Decifrando los modelos de referencia.

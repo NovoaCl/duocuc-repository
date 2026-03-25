@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18CB1EFF-E991-700C-8CED-B09792269790" name="marca">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>E6475C42-92CE-111F-48BF-D78E8EADFD3A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_marca" id="E11D5E03-F6A6-9E59-5779-71F809A9E498">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>F9CD1735-392A-D4C5-6EC2-CD820C2FA913</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0DEE8A1F-9D55-8771-FFC7-58B95B110C86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_marca" id="68FF8841-6D5B-873F-5E48-B63DBCF4D88C">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>DAF25526-7692-589E-CBA1-CD7A32B17BDC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>81627C7A-2F4E-60DB-EEF4-9AF4F3BB57CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE3CD174-E62E-008B-26DA-F4F01A3CCBB2" name="pk_marca">
+<sourceDDLFile>Script_Base.sql</sourceDDLFile>
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<importedID>5CEFD786-BC04-11F6-B795-4C0706C14937</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E11D5E03-F6A6-9E59-5779-71F809A9E498"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

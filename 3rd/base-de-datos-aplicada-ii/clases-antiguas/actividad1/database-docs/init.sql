@@ -1,0 +1,22 @@
+-- ================================================
+-- SCRIPT PARA MDY2131_P1
+-- PRÁCTICA: P1
+-- ================================================
+
+ALTER SESSION SET CONTAINER = XEPDB1;
+
+CREATE USER MDY2131_P1 
+IDENTIFIED BY "MDY2131.practica_p1" 
+DEFAULT TABLESPACE USERS 
+TEMPORARY TABLESPACE TEMP;
+
+ALTER USER MDY2131_P1 QUOTA UNLIMITED ON USERS;
+
+GRANT CREATE SESSION TO MDY2131_P1;
+GRANT RESOURCE TO MDY2131_P1;
+ALTER USER MDY2131_P1 DEFAULT ROLE RESOURCE;
+
+-- Verificación
+SELECT username, account_status, default_tablespace 
+FROM dba_users 
+WHERE username = 'MDY2131_P1';

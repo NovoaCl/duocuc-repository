@@ -1,0 +1,115 @@
+Pregunta 1
+En el laboratorio de la Estación Espacial Alpha, un equipo de científicos está estudiando un material exótico conocido como Materia Elevin. Esta sustancia, que se encuentra en estado líquido a temperaturas extremas, cambia su volumen de forma predecible a medida que pasa el tiempo. El equipo ha observado que el volumen de la Materia Elevin varía siguiendo una serie de patrones según los días de exposición a un campo energético constante.
+
+Los investigadores han determinado que el volumen de la Materia Elevin en el n-ésimo día de exposición sigue una fórmula definida por:
+
+V(n) = 2 * n + 10
+Donde n corresponde al número de días.
+
+¿Cuánto volumen tendrá la Materia Elevin en el día 25? 
+
+Opción A
+120
+
+Opción B
+60
+
+Opción C
+180
+
+Opción D
+10
+
+
+Pregunta 2
+En el laboratorio de la Estación Espacial Alpha, un equipo de científicos está estudiando un material exótico conocido como Materia Elevin. Esta sustancia, que se encuentra en estado líquido a temperaturas extremas, cambia su volumen de forma predecible a medida que pasa el tiempo. El equipo ha observado que el volumen de la Materia Elevin varía siguiendo una serie de patrones según los días de exposición a un campo energético constante.
+
+Los investigadores han determinado que el volumen de la Materia Elevin en el n-ésimo día de exposición sigue una fórmula definida por:
+
+V(n) = 2 * n + 10
+Donde n corresponde al número de días.
+
+¿Cuánto volumen tendrá la Materia Elevin en el día 30?
+
+Opción A
+70
+
+Opción B
+140
+
+Opción C
+210
+
+Opción D
+2
+
+
+Pregunta 3
+En el laboratorio de la Estación Espacial Alpha, un equipo de científicos está estudiando un material exótico conocido como Materia Elevin. Esta sustancia, que se encuentra en estado líquido a temperaturas extremas, cambia su volumen de forma predecible a medida que pasa el tiempo. El equipo ha observado que el volumen de la Materia Elevin varía siguiendo una serie de patrones según los días de exposición a un campo energético constante.
+
+Los investigadores han determinado que el volumen de la Materia Elevin en el n-ésimo día de exposición sigue una fórmula definida por:
+
+V(n) = 2 * n + 10
+Donde n corresponde al número de días.
+
+Después de una serie de experimentos, los científicos descubren que el material alcanza un volumen de 50 unidades en algún momento.
+
+Es correcto afirmar que, para encontrar el día en que el volumen es de 60 unidades, se puede utilizar la función While en Python
+
+Verdadero
+
+Falso
+
+
+Pregunta 4
+En el laboratorio de la Estación Espacial Alpha, un equipo de científicos está estudiando un material exótico conocido como Materia Elevin. Esta sustancia, que se encuentra en estado líquido a temperaturas extremas, cambia su volumen de forma predecible a medida que pasa el tiempo. El equipo ha observado que el volumen de la Materia Elevin varía siguiendo una serie de patrones según los días de exposición a un campo energético constante.
+
+Los investigadores han determinado que el volumen de la Materia Elevin en el n-ésimo día de exposición sigue una fórmula definida por:
+
+V(n) = 2 * n + 10
+Donde n corresponde al número de días.
+
+Después de una serie de experimentos, los científicos descubren que el material alcanza un volumen de 50 unidades en algún momento.
+
+El momento que alcanza un volumen de 50 unidades es de?
+Escribir la respuesta:
+
+Pregunta 5
+
+En otro laboratorio Termex, también se estudia el comportamiento de la Materia Elvin, pero esta tiene un comportamiento inusual, donde el volumen de la materia se va duplicando y en el día 1 tiene un volumen de 555 unidades.
+
+Por lo anterior, el comportamiento se modela secuencialmente como:
+
+C(n) = C1 * r^(n-1)
+Donde
+C1 = ? , correspondiente al primer término
+r = ? , correspondiente a la razón geométrica
+
+Encontrar los valores de C1 y r.
+
+
+Pregunta 6
+En otro laboratorio Termex, también se estudia el comportamiento de la Materia Elvin, pero esta tiene un comportamiento inusual, donde el volumen de la materia se va duplicando y en el día 1 tiene un volumen de 555 unidades.
+
+Por lo anterior, el comportamiento se modela secuencialmente como:
+
+C(n) = C1 * r^(n-1)
+Donde
+
+C_1: correspondiente al primer término
+r: correspondiente a la razón geométrica
+
+Determine el volumen total hasta el décimo día con el laboratorio Termex
+
+Opción A
+1200314
+
+Opción B
+284160
+
+Opción C
+283605
+
+Opción D
+567765
+

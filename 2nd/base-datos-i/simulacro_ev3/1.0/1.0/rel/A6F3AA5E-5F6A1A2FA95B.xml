@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="A6F3AA5E-8B12-1682-7C86-5F6A1A2FA95B" mainViewID="BFCA1146-DFEB-8ECD-9DA8-B9644562DA1D">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-19 23:51:15 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Script_Base.sql</fileName>
+<pathName>C:\Users\clnov\Desktop\2nd\base-datos-i\simulacro_ev3</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

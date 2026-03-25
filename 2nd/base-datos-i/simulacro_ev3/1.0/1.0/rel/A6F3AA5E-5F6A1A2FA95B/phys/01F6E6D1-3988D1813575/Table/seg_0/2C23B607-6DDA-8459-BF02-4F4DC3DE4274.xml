@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="categoria" directorySegmentName="seg_0" id="2C23B607-6DDA-8459-BF02-4F4DC3DE4274">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="comuna_id_comuna" id="735C5410-780F-AA68-840D-B7423BE8227C">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:58:48 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nom_categoria" id="A6D63F87-F973-BBC8-94F5-66A1430CBA63">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="porcentaje" id="C9225077-0000-B46B-2189-C4CEDD1C32AF">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_categoria" id="E6DEB732-F607-E05D-03D7-2E27321D913B">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="categoria_comuna_FK" id="694ACB22-D09D-F3C1-C5F9-8225F26E0F0E">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:58:47 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_categoria" id="0857FED3-6D5F-D8B7-AFFE-5927567412F0">
+<createdBy>clnov</createdBy>
+<createdTime>2025-11-20 00:09:34 UTC</createdTime>
+<ownerDesignName>1.0</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

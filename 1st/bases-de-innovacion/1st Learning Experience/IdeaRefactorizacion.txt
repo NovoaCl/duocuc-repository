@@ -1,0 +1,14 @@
+Buena chiquillos, considerando que debemos dar una solucion teniendo en cuenta el precio y tiempo, creo que me quedó con la idea de la mejora del sistema de GPS.
+No seria tan costoso refactorizar una aplicación en comparación a traer buses para todo chile. 
+
+Idea: Considerando que el hardware esté operativo (GPS), desarrollar una aplicación movil que utilice el GPS del telefono para generar rutas hacia un destino. 
+La aplicación mostrará: 
+- Tiempo esperado de viaje. 
+- Detalle de los paraderos y flujo de buses: ubicación de paraderos, detalle de los buses que llegan a él, seguimiento en tiempo real de los buses, notificación de demoras inesperadas. 
+- Flexibilidad para cambiar de ruta: Ej: si hay 5 buses que me llevan al mismo destino, que muestre el más próximo y recibir notificación en caso de que el bus más próximo cambie y poder seleccionarlo.
+
+Esta idea puede solucionar el problema de los estudiantes, pero de ser real, podría beneficiar a todo tipo de usuario en el mundo.
+
+Cuentenme que opinan, si aún así deciden presentar la idea de los buses igual les apaño.
+Refactorizar aplicación para generar rutas. 
+Desarrollar una aplicación movil que tenga conexion directa con el sistema GPS de transantiago, para consultar la distancia en tiempo real de los buses y rutas eficientes.

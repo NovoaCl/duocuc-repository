@@ -1,0 +1,16 @@
+19-03-2026
+- Instanciar Repository en Service para utilizar los metodos de Repository.
+- controller API HTTP
+- Service RN llama a los metodos del repository
+- Repository DB Model
+
+@Autowired
+@RequestBody
+
+
+POST= 	{"rut": 11,
+	 "dv": "2",
+	 "nombre": "Gabriel"
+	}
+
+* id nunca se envia en el body, solo en el path. No puede cambiar el identificador.

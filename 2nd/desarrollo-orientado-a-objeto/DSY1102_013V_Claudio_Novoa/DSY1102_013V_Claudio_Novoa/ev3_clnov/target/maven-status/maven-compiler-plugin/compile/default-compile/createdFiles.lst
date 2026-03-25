@@ -1,0 +1,10 @@
+com\mycompany\ev3_clnov\Ev3_clnov.class
+com\mycompany\ev3_clnov\view\Interfaz$3.class
+com\mycompany\ev3_clnov\model\dto\Jugador.class
+com\mycompany\ev3_clnov\view\Interfaz$2.class
+com\mycompany\ev3_clnov\view\Interfaz.class
+com\mycompany\ev3_clnov\model\dao\JugadorDAO.class
+com\mycompany\ev3_clnov\view\Interfaz$1.class
+com\mycompany\ev3_clnov\model\db\ConexionDB.class
+com\mycompany\ev3_clnov\service\JugadorService.class
+com\mycompany\ev3_clnov\controller\InterfazController.class
