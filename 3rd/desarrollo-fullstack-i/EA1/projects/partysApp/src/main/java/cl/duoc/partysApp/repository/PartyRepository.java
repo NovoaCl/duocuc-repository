@@ -18,10 +18,12 @@ public class PartyRepository {
         return party;
     }
 
+    //List
     public List<Party> getParties() {
         return new ArrayList<>(partyList);
     }
 
+    //GET
     public Optional<Party> searchPartyById(Integer id) {
         for (Party p : partyList) {
             if (id.equals(p.getId())) {
@@ -30,5 +32,7 @@ public class PartyRepository {
         }
         return Optional.empty();
     }
+
+    pu
 
 }
