@@ -13,7 +13,7 @@ public class Party {
 
     private Integer id;
     private String name;
-    private String partysType;
+    private String typeOfParty;
     private LocalDate date;
     private String location;
     private Integer numberOfGuests;

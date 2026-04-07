@@ -11,19 +11,21 @@ import cl.duoc.partysApp.model.Party;
 @Repository
 public class PartyRepository {
 
+    // data array
     private final List<Party> partyList = new ArrayList<>();
 
+    // Save on partyList
     public Party saveParty(Party party) {
         partyList.add(party);
         return party;
     }
 
-    //List
+    // List method
     public List<Party> getParties() {
         return new ArrayList<>(partyList);
     }
 
-    //GET
+    // List one party
     public Optional<Party> searchPartyById(Integer id) {
         for (Party p : partyList) {
             if (id.equals(p.getId())) {
@@ -33,6 +35,28 @@ public class PartyRepository {
         return Optional.empty();
     }
 
-    pu
+    // Update a party
+    public Party updateParty(Party update) {
+        for (Party p : partyList) {
+            if (update.getId().equals(p.getId())) {
+                p.setName(update.getName());
+                p.setTypeOfParty(update.getTypeOfParty());
+                p.setDate(update.getDate());
+                p.setLocation(update.getLocation());
+                return p;
+            }
+        }
+        return null;
+    }
 
+    // Delete a party
+    public Boolean deleteParty(Integer id) {
+        for (Party p : partyList) {
+            if (id.equals(p.getId())) {
+                partyList.remove(p);
+                return true;
+            }
+        }
+        return false;
+    }
 }
