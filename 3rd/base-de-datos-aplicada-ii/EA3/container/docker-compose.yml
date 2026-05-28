@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  oracle-db:
+    image: gvenzl/oracle-xe:21-slim
+    container_name: oracle-xe
+    restart: unless-stopped
+
+    ports:
+      - "${ORACLE_PORT}:1521"
+      - "${ORACLE_EM_PORT}:5500"
+
+    environment:
+      ORACLE_PASSWORD: ${ORACLE_PASSWORD}
+      APP_USER: appuser
+      APP_USER_PASSWORD: appuser123
+
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+      - ./init:/container-entrypoint-initdb.d
+
+volumes:
+  oracle-data:
