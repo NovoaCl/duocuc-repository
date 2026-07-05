@@ -1,0 +1,55 @@
+WEBVTT
+
+00:01:41.000 --> 00:01:41.900
+<v FERNANDO ISAAC VILLALOBOS VIVEROS>
+Vulnerar?
+
+00:05:56.000 --> 00:05:56.900
+<v FERNANDO ISAAC VILLALOBOS VIVEROS>
+window
+
+00:06:02.000 --> 00:06:02.900
+<v PABLO ANTONIO ACUNA ESCOBAR>
+windows
+
+00:12:02.000 --> 00:12:02.900
+<v PABLO ANTONIO ACUNA ESCOBAR>
+inyecciones de codigo?
+
+00:20:44.000 --> 00:20:44.900
+<v MARTIN IGNACIO GONZALEZ VARELA>
+Hola profe como está,, tengo mala conexion :c 
+
+00:26:22.000 --> 00:26:22.900
+<v FELIPE ANDRES CACERES SALINAS>
+search — buscar exploit por CVE, nombre de software o plataforma"
+
+00:26:36.000 --> 00:26:36.900
+<v FELIPE ANDRES CACERES SALINAS>
+use — seleccionar el módulo"
+
+00:27:00.000 --> 00:27:00.900
+<v FELIPE ANDRES CACERES SALINAS>
+show options — ver qué parámetros requiere"
+4
+
+00:27:02.000 --> 00:27:02.900
+<v FELIPE ANDRES CACERES SALINAS>
+ set — configurar los parámetros (RHOSTS, LHOST, payload, etc.)"
+
+00:27:03.000 --> 00:27:03.900
+<v FELIPE ANDRES CACERES SALINAS>
+run
+
+00:34:43.000 --> 00:34:43.900
+<v FELIPE ANDRES CACERES SALINAS>
+sal
+
+00:39:27.000 --> 00:39:27.900
+<v FELIPE ANDRES CACERES SALINAS>
+<a href="https://github.com/ihebski/DefaultCreds-cheat-sheet" target="_blank" rel="noopener noreferrer" aria-label="github.com/ihebski/DefaultCreds-cheat-sheet">github.com/ihebski/DefaultCreds-cheat-sheet</a>
+
+00:42:36.000 --> 00:42:36.900
+<v JAVIER ANDRES ESCALONA PADILLA>
+creo que no 
+

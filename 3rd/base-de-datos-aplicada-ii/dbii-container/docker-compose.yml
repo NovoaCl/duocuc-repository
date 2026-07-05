@@ -1,0 +1,29 @@
+services:
+  oracle-xe:
+    image: gvenzl/oracle-xe:21-slim
+    container_name: oracle-xe-mdy2131
+    restart: unless-stopped
+    ports:
+      - "1521:1521"   # Puerto de conexión SQL/Listener
+      - "5500:5500"   # Puerto de Enterprise Manager Express (opcional)
+    environment:
+      # Password del usuario SYS / SYSTEM (administrador de la base)
+      ORACLE_PASSWORD: "TuPasswordAdmin123"
+      # NOTA: NO se define ORACLE_DATABASE porque el PDB "XEPDB1"
+      # ya viene creado por defecto en esta imagen. Si se define
+      # ORACLE_DATABASE=XEPDB1, el contenedor intenta crear OTRO
+      # PDB con ese mismo nombre y falla con ORA-65012.
+    volumes:
+      # Persistencia de datos: si borras el contenedor, la data sigue viva
+      - oracle_data:/opt/oracle/oradata
+      # Scripts que se ejecutan SOLO la primera vez que se crea la base
+      - ./init-scripts:/container-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "healthcheck.sh"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 5m
+
+volumes:
+  oracle_data:
