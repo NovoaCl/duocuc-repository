@@ -1,7 +1,0 @@
-
-
-function checkear_formulario(){
-
-    
-
-}
